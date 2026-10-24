@@ -1,0 +1,11 @@
+{
+  "bettermounthudport.configuration.title": "Better Mount HUD 설정",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml": "클라이언트 설정",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml.title": "Better Mount HUD 설정",
+  "bettermounthudport.configuration.showFoodWhileRiding": "탑승 중 배고픔 표시",
+  "bettermounthudport.configuration.showFoodWhileRiding.tooltip": "체력이 있는 탈것에 탑승하는 동안 배고픔 막대를 계속 표시합니다. 탈것의 체력은 그 위로 이동합니다.",
+  "bettermounthudport.configuration.showExperienceWhileRiding": "탑승 중 경험치 표시",
+  "bettermounthudport.configuration.showExperienceWhileRiding.tooltip": "말, 낙타 등 점프하는 탈것에 탑승하는 동안 경험치 막대와 레벨을 표시합니다. 점프 키를 누르고 있는 동안에는 점프 막대가 표시됩니다.",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown": "재사용 대기 중 점프 막대 표시",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown.tooltip": "탈것의 점프가 재사용 대기 중일 때(예: 낙타의 돌진) 점프 막대를 계속 표시합니다."
+}

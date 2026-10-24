@@ -1,0 +1,11 @@
+{
+  "bettermounthudport.configuration.title": "Ustawienia Better Mount HUD",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml": "Ustawienia klienta",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml.title": "Ustawienia Better Mount HUD",
+  "bettermounthudport.configuration.showFoodWhileRiding": "Pokazuj głód podczas jazdy",
+  "bettermounthudport.configuration.showFoodWhileRiding.tooltip": "Pasek głodu pozostaje widoczny podczas jazdy na wierzchowcu z serduszkami. Serduszka wierzchowca przesuwają się nad nim.",
+  "bettermounthudport.configuration.showExperienceWhileRiding": "Pokazuj doświadczenie podczas jazdy",
+  "bettermounthudport.configuration.showExperienceWhileRiding.tooltip": "Pokazuje pasek i poziom doświadczenia podczas jazdy na koniu, wielbłądzie lub innym skaczącym wierzchowcu. Pasek skoku wraca, gdy przytrzymujesz klawisz skoku.",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown": "Pasek skoku podczas odnowienia",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown.tooltip": "Pasek skoku pozostaje widoczny, gdy skok wierzchowca się odnawia (na przykład szarża wielbłąda)."
+}

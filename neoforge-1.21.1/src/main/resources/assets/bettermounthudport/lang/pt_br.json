@@ -1,0 +1,11 @@
+{
+  "bettermounthudport.configuration.title": "Configurações do Better Mount HUD",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml": "Configurações do cliente",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml.title": "Configurações do Better Mount HUD",
+  "bettermounthudport.configuration.showFoodWhileRiding": "Mostrar fome ao montar",
+  "bettermounthudport.configuration.showFoodWhileRiding.tooltip": "A barra de fome continua visível enquanto você monta uma montaria com corações. Os corações da montaria sobem para cima dela.",
+  "bettermounthudport.configuration.showExperienceWhileRiding": "Mostrar experiência ao montar",
+  "bettermounthudport.configuration.showExperienceWhileRiding.tooltip": "Mostra a barra e o nível de experiência ao montar um cavalo, camelo ou outra montaria que pula. A barra de pulo volta enquanto você segura a tecla de pulo.",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown": "Barra de pulo durante a recarga",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown.tooltip": "A barra de pulo continua visível enquanto o pulo da montaria recarrega (por exemplo, a investida do camelo)."
+}

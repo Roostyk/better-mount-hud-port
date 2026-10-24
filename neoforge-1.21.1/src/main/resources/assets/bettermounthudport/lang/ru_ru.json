@@ -1,0 +1,11 @@
+{
+  "bettermounthudport.configuration.title": "Настройки Better Mount HUD",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml": "Настройки клиента",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml.title": "Настройки Better Mount HUD",
+  "bettermounthudport.configuration.showFoodWhileRiding": "Голод верхом",
+  "bettermounthudport.configuration.showFoodWhileRiding.tooltip": "Шкала голода остаётся на экране, когда ты сидишь на животном с сердцами. Сердца животного поднимаются над ней.",
+  "bettermounthudport.configuration.showExperienceWhileRiding": "Опыт верхом",
+  "bettermounthudport.configuration.showExperienceWhileRiding.tooltip": "Полоса и уровень опыта видны, когда ты на лошади, верблюде или другом прыгающем животном. Пока держишь прыжок, вместо них видна полоса прыжка.",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown": "Полоса прыжка во время перезарядки",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown.tooltip": "Полоса прыжка остаётся видна, пока прыжок животного перезаряжается (например, рывок верблюда)."
+}

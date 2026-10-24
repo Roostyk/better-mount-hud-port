@@ -188,3 +188,10 @@ idea {
         downloadJavadoc = true
     }
 }
+
+// Ship the GPL-3.0 license and attribution notice inside the jar.
+def licenseSuffix = project.mod_id
+tasks.named('jar', Jar).configure {
+    from(rootProject.file('../LICENSE')) { rename { "LICENSE_${licenseSuffix}" } }
+    from(rootProject.file('../NOTICE.md')) { rename { "NOTICE_${licenseSuffix}.md" } }
+}

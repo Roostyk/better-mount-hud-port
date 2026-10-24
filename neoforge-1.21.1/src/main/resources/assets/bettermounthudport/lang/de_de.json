@@ -1,0 +1,11 @@
+{
+  "bettermounthudport.configuration.title": "Better Mount HUD – Einstellungen",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml": "Client-Einstellungen",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml.title": "Better Mount HUD – Einstellungen",
+  "bettermounthudport.configuration.showFoodWhileRiding": "Hunger beim Reiten anzeigen",
+  "bettermounthudport.configuration.showFoodWhileRiding.tooltip": "Die Hungerleiste bleibt sichtbar, während du ein Reittier mit Herzen reitest. Die Herzen des Reittiers rücken darüber.",
+  "bettermounthudport.configuration.showExperienceWhileRiding": "Erfahrung beim Reiten anzeigen",
+  "bettermounthudport.configuration.showExperienceWhileRiding.tooltip": "Zeigt Erfahrungsleiste und Level beim Reiten von Pferd, Kamel oder anderen springenden Reittieren. Solange du die Sprungtaste hältst, erscheint stattdessen die Sprungleiste.",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown": "Sprungleiste während der Abklingzeit",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown.tooltip": "Die Sprungleiste bleibt sichtbar, solange der Sprung des Reittiers abklingt (zum Beispiel der Sprint des Kamels)."
+}

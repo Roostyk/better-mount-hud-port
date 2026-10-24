@@ -1,0 +1,11 @@
+{
+  "bettermounthudport.configuration.title": "Better Mount HUD の設定",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml": "クライアント設定",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml.title": "Better Mount HUD の設定",
+  "bettermounthudport.configuration.showFoodWhileRiding": "騎乗中に満腹度を表示",
+  "bettermounthudport.configuration.showFoodWhileRiding.tooltip": "体力のある乗り物に乗っている間も満腹度ゲージを表示します。乗り物の体力はその上に移動します。",
+  "bettermounthudport.configuration.showExperienceWhileRiding": "騎乗中に経験値を表示",
+  "bettermounthudport.configuration.showExperienceWhileRiding.tooltip": "馬やラクダなどジャンプできる乗り物に乗っている間、経験値バーとレベルを表示します。ジャンプキーを押している間はジャンプバーに切り替わります。",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown": "クールダウン中はジャンプバーを表示",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown.tooltip": "乗り物のジャンプがクールダウン中（例：ラクダのダッシュ）の間、ジャンプバーを表示し続けます。"
+}

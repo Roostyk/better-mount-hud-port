@@ -1,0 +1,11 @@
+{
+  "bettermounthudport.configuration.title": "Ajustes de Better Mount HUD",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml": "Ajustes del cliente",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml.title": "Ajustes de Better Mount HUD",
+  "bettermounthudport.configuration.showFoodWhileRiding": "Mostrar hambre al montar",
+  "bettermounthudport.configuration.showFoodWhileRiding.tooltip": "La barra de hambre sigue visible mientras montas una montura con corazones. Los corazones de la montura se mueven encima.",
+  "bettermounthudport.configuration.showExperienceWhileRiding": "Mostrar experiencia al montar",
+  "bettermounthudport.configuration.showExperienceWhileRiding.tooltip": "Muestra la barra y el nivel de experiencia al montar un caballo, camello u otra montura que salta. La barra de salto vuelve mientras mantienes la tecla de salto.",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown": "Barra de salto durante la recarga",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown.tooltip": "La barra de salto sigue visible mientras el salto de la montura se recarga (por ejemplo, la embestida del camello)."
+}

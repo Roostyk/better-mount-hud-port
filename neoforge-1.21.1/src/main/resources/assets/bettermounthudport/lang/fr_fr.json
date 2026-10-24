@@ -1,0 +1,11 @@
+{
+  "bettermounthudport.configuration.title": "Paramètres de Better Mount HUD",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml": "Paramètres du client",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml.title": "Paramètres de Better Mount HUD",
+  "bettermounthudport.configuration.showFoodWhileRiding": "Afficher la faim à cheval",
+  "bettermounthudport.configuration.showFoodWhileRiding.tooltip": "La barre de faim reste visible quand vous chevauchez une monture avec des cœurs. Les cœurs de la monture passent au-dessus.",
+  "bettermounthudport.configuration.showExperienceWhileRiding": "Afficher l'expérience à cheval",
+  "bettermounthudport.configuration.showExperienceWhileRiding.tooltip": "Affiche la barre et le niveau d'expérience sur un cheval, un dromadaire ou une autre monture sauteuse. La barre de saut revient tant que vous maintenez la touche de saut.",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown": "Barre de saut pendant la recharge",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown.tooltip": "La barre de saut reste visible pendant la recharge du saut de la monture (par exemple, la ruée du dromadaire)."
+}

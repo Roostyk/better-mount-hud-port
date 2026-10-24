@@ -1,0 +1,11 @@
+{
+  "bettermounthudport.configuration.title": "Better Mount HUD Settings",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml": "Client Settings",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml.title": "Better Mount HUD Settings",
+  "bettermounthudport.configuration.showFoodWhileRiding": "Show Hunger While Riding",
+  "bettermounthudport.configuration.showFoodWhileRiding.tooltip": "Keep the hunger bar visible while riding a mount with hearts. The mount's hearts move above it.",
+  "bettermounthudport.configuration.showExperienceWhileRiding": "Show Experience While Riding",
+  "bettermounthudport.configuration.showExperienceWhileRiding.tooltip": "Show the experience bar and level while riding a horse, camel or other jumping mount. The jump bar comes back while you hold the jump key.",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown": "Show Jump Bar During Cooldown",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown.tooltip": "Keep the jump bar visible while the mount's jump is on cooldown (for example, the camel's dash)."
+}

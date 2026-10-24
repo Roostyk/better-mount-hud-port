@@ -1,0 +1,11 @@
+{
+  "bettermounthudport.configuration.title": "Better Mount HUD 设置",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml": "客户端设置",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml.title": "Better Mount HUD 设置",
+  "bettermounthudport.configuration.showFoodWhileRiding": "骑乘时显示饥饿值",
+  "bettermounthudport.configuration.showFoodWhileRiding.tooltip": "骑乘有生命值的坐骑时保持显示饥饿条，坐骑的生命值会移到饥饿条上方。",
+  "bettermounthudport.configuration.showExperienceWhileRiding": "骑乘时显示经验",
+  "bettermounthudport.configuration.showExperienceWhileRiding.tooltip": "骑乘马、骆驼等可跳跃坐骑时显示经验条和等级。按住跳跃键时会改为显示跳跃条。",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown": "冷却期间显示跳跃条",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown.tooltip": "坐骑跳跃冷却期间（例如骆驼冲刺）保持显示跳跃条。"
+}

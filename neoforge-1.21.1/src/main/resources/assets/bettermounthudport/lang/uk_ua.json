@@ -1,0 +1,11 @@
+{
+  "bettermounthudport.configuration.title": "Налаштування Better Mount HUD",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml": "Налаштування клієнта",
+  "bettermounthudport.configuration.section.bettermounthudport.client.toml.title": "Налаштування Better Mount HUD",
+  "bettermounthudport.configuration.showFoodWhileRiding": "Голод верхи",
+  "bettermounthudport.configuration.showFoodWhileRiding.tooltip": "Шкала голоду залишається на екрані, коли ти сидиш на тварині із серцями. Серця тварини піднімаються над нею.",
+  "bettermounthudport.configuration.showExperienceWhileRiding": "Досвід верхи",
+  "bettermounthudport.configuration.showExperienceWhileRiding.tooltip": "Смуга й рівень досвіду видно, коли ти на коні, верблюді чи іншій тварині, що стрибає. Поки тримаєш стрибок, замість них видно смугу стрибка.",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown": "Смуга стрибка під час перезаряджання",
+  "bettermounthudport.configuration.showJumpBarDuringCooldown.tooltip": "Смуга стрибка залишається видимою, поки стрибок тварини перезаряджається (наприклад, ривок верблюда)."
+}
