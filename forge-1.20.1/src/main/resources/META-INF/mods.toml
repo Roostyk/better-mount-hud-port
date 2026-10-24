@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+# Client-side only: Forge skips the mod on dedicated servers and does not require it on the server.
+clientSideOnly=true
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+logoFile="icon.png"
+authors="${mod_authors}"
+credits="Original Better Mount HUD (Fabric) by Lortseam and contributors: https://github.com/Lortseam/better-mount-hud"
+description='''
+Keeps your hunger, experience and air visible while you ride a horse, camel, pig or any other mount.
+
+Unofficial Forge port of Better Mount HUD by Lortseam. Licensed under GPL-3.0.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="CLIENT"
