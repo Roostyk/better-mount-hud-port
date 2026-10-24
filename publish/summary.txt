@@ -1,0 +1,1 @@
+Keeps your hunger, experience and air visible while riding a horse, camel, pig or any other mount. Unofficial NeoForge and Forge port.
