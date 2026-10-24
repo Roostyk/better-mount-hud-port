@@ -63,7 +63,7 @@ public final class HudDevTest {
 
     private static void createWorld(Minecraft mc) {
         String name = "hudtest-" + System.currentTimeMillis();
-        LevelSettings settings = new LevelSettings(name, GameType.SURVIVAL, false, Difficulty.PEACEFUL,
+        LevelSettings settings = new LevelSettings(name, GameType.SURVIVAL, false, Difficulty.EASY,
                 true, new GameRules(), WorldDataConfiguration.DEFAULT);
         mc.createWorldOpenFlows().createFreshLevel(name, settings, WorldOptions.defaultWithRandomSeed(),
                 registries -> registries.registryOrThrow(Registries.WORLD_PRESET)
@@ -76,6 +76,9 @@ public final class HudDevTest {
             case 40 -> {
                 command(mc, "gamerule sendCommandFeedback false");
                 command(mc, "gamerule doDaylightCycle false");
+                command(mc, "gamerule doMobSpawning false");
+                command(mc, "effect give @s minecraft:hunger 2 255 true");
+                command(mc, "item replace entity @s hotbar.0 with minecraft:cooked_beef");
                 command(mc, "time set noon");
                 command(mc, "xp add @s 27 levels");
                 command(mc, "xp add @s 40 points");

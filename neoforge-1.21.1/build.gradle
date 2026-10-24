@@ -35,7 +35,11 @@ sourceSets {
 }
 
 repositories {
-    // Add here additional repositories if required by some of the dependencies below.
+    // Modrinth Maven, only for mods used in the dev-only HUD test.
+    exclusiveContent {
+        forRepository { maven { url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
 }
 
 base {
@@ -133,6 +137,9 @@ configurations {
 }
 
 dependencies {
+    // AppleSkin also draws on the hunger bar: the HUD test checks that both mods work together.
+    devtestRuntimeOnly "maven.modrinth:appleskin:3.0.9+mc1.21"
+
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
