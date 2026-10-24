@@ -26,6 +26,14 @@ sourceSets.main.resources {
     exclude("src/generated/**/.cache") // datagen cache files
 }
 
+// Dev-only HUD test (src/devtest). It is never packed into the mod jar.
+sourceSets {
+    devtest {
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+
 repositories {
     // Add here additional repositories if required by some of the dependencies below.
 }
@@ -56,6 +64,14 @@ neoForge {
             client()
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+
+        // Opens a test world, rides a horse and a camel, saves screenshots to run-hudtest/screenshots, then quits.
+        hudTest {
+            client()
+            sourceSet = sourceSets.devtest
+            gameDirectory = project.file('run-hudtest')
+            systemProperty 'bettermounthudport.devtest', 'true'
         }
 
         server {
@@ -103,6 +119,7 @@ neoForge {
         // multi mod projects should define one per mod
         "${mod_id}" {
             sourceSet(sourceSets.main)
+            sourceSet(sourceSets.devtest)
         }
     }
 }
@@ -162,6 +179,7 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
 sourceSets.main.resources.srcDir generateModMetadata
 // To avoid having to run "generateModMetadata" manually, make it run on every project reload
 neoForge.ideSyncTask generateModMetadata
+neoForge.addModdingDependenciesTo(sourceSets.devtest)
 
 // Example configuration to allow publishing using the maven-publish plugin
 publishing {
