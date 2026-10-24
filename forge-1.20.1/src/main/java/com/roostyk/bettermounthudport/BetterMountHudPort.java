@@ -1,5 +1,5 @@
 /*
- * Better Mount HUD [NeoForge/Forge Port]
+ * Better Mount HUD (Unofficial Port)
  * Copyright (C) 2026 Roostyk
  * Unofficial port of Better Mount HUD by Lortseam, licensed under GPL-3.0.
  *

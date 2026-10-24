@@ -1,6 +1,6 @@
 # Notice
 
-**Better Mount HUD [NeoForge/Forge Port]** is an unofficial port of
+**Better Mount HUD (Unofficial Port)** is an unofficial port of
 [Better Mount HUD](https://modrinth.com/mod/better-mount-hud) by **Lortseam** and contributors
 (source: https://github.com/Lortseam/better-mount-hud), which is licensed under the
 GNU General Public License v3.0.

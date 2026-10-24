@@ -1,4 +1,4 @@
-# Better Mount HUD [NeoForge/Forge Port]
+# Better Mount HUD (Unofficial Port)
 
 Keeps your hunger, experience and air visible while you ride a horse, camel, pig, strider or any other mount.
 
