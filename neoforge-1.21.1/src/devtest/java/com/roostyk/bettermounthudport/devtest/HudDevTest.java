@@ -72,6 +72,10 @@ public final class HudDevTest {
     }
 
     private static void runStep(Minecraft mc, int t) {
+        if (t > 495 && t <= 527) {
+            // Air bubbles show when air is below full. Set it every tick, after the player's own tick.
+            mc.player.setAirSupply(150);
+        }
         switch (t) {
             case 40 -> {
                 command(mc, "gamerule sendCommandFeedback false");
@@ -123,7 +127,8 @@ public final class HudDevTest {
             }
             case 450 -> command(mc, "ride @s mount @e[type=minecraft:pig,limit=1,sort=nearest]");
             case 490 -> shot(mc, "10-pig");
-            case 500 -> {
+            case 525 -> shot(mc, "11-pig-low-air");
+            case 535 -> {
                 LOGGER.info("[HudDevTest] Finished, closing the game.");
                 mc.stop();
             }
